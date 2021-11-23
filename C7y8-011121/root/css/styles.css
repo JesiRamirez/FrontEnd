@@ -1,0 +1,73 @@
+.alineado { 
+    padding-left: 0px
+}
+.alineado2 {
+    padding-left: 80px;
+}
+.alineado3 {
+    padding-left: 40px;
+}
+
+.linkedin {
+    Width: 20px;
+    Height: 20px;
+    Top: 996px;
+    Left: 818px;
+}
+
+.instagram {
+    Width: 20px;
+    Height: 20px;
+    Top: 996px;
+    Left: 772px;
+}
+
+.fotoperfil {
+    Width: 100px;
+    Height: 130px;
+    position: absolute;
+    top: 20.91px; 
+    border-radius: 50%;
+    
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.cursiva {
+    font-style: italic;
+    width: 10px
+    
+}
+
+#cuadro1 {
+    background-color: rgb(142, 118, 207);
+    height: 200px;
+    width: 100%;
+}
+
+h1 {
+    background-color:rgb(50, 201, 212);
+    height: 60px;
+    width: 100%;
+}
+
+h3 {
+    padding-left: 10px;
+    background-color:rgb(50, 201, 212);
+    height: 30px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    top: 679px;
+    line-height: 30px;
+    
+}
+
+footer {
+    background-color:rgb(50, 201, 212);
+    height: 37px;
+    width: 100%;
+}

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: "Roboto", sans-serif;
+}
+
+.top {
+    background-color: #222222;
+    color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    font-size: 10px;
+    font-weight: 400;
+    padding-top: 4px;
+    padding-left: 90px
+}
+
+.top-list {
+    display: flex;
+}
+
+.top-list li{
+    padding-right: 60px;
+    padding-left: 10px
+}
+
+.top-header {
+    background-color: #F0A83E;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    align-items: center
+}
+
+.logo {
+    padding-left: 40px;
+    width: 166px;
+    height: 23px
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 400;
+    margin-right: 40px; 
+    padding-right: 20px;
+}
+
+.main-header {
+    background-image: url("/HTML/imagen-de-fondo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 409px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+.texto {
+    margin-right: 11px;
+    align-items: center;
+}
+
+.texto h2 {
+    color: #3C2313;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 400;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.texto .comederos {
+    color: #3C2313;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.texto .simil-boton {
+    color: #ffffff;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #F0A83E;
+    height: 49px;
+    width: 141px;
+    padding: 15px 0; 
+    border: none; 
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 12px; 
+    margin-left: 117px;
+}
+
+.main-products {
+    display: flex
+}
+
+.main-products .huella {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 67px;
+    height: 71px
+}
