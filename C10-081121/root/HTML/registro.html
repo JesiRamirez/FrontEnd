@@ -7,6 +7,9 @@
     <title>Registro</title>
     <link rel="stylesheet" src="@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap')">
     <link rel="stylesheet" href="/C10-081121/root/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -15,12 +18,12 @@
         <h1>Heroes</h1>
     </header>
     <main class="form-register">
-        <h2>Registro</h2>
         <form class="formulario" action="@import url('registro.html')" method="post">
+            <h2>Registro</h2>
             <input class="datos" type="text" name="nombre" id="usuario" placeholder="Nombre y Apellido">
             <input class="datos" type="mail" name="mail" id="mail" placeholder="Correo Electrónico">
             <input class="datos" type="password" name="password" id="password" placeholder="Contraseña">
-            <select class="datos" name="pais">
+            <select class="país" name="pais">
                 <option value=""disabled selected>País</option>
                 <option value="AR">Argentina</option>
                 <option value="BO">Bolivia</option>
@@ -32,11 +35,13 @@
                 <option value="PE">Perú</option>
                 <option value="UY">Uruguay</option>
                 <option value="VE">Venezuela</option>
-            <input class="button" type="reset" value="Resetear">
-            <input class="button" type="submit" value="Enviar">
-            <p class="pregunta">¿Ya tenés una cuenta?  <a class="link" href=#> Ingresá</a></p>
+            <input class="button-resetear" type="reset" value="Resetear">
+            <input class="button-enviar" type="submit" value="Enviar">
+            <p class="pregunta">¿Ya tenés una cuenta? <a href="#">Ingresá</a></p>
         </form>
         
     </main>
 </body>
+
+<footer class="foot-register"> Todos los Derechos reservados a FRONTEND 1</footer>
 </html>

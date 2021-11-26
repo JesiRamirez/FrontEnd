@@ -9,6 +9,19 @@
     align-items: center;
 }
 
+.enlaces {
+    display: flex;
+    justify-content: space-between;
+    background-color:#00669F;
+    height: 80px;
+}
+
+.enlaces .nav-bar {
+    list-style: none;
+    text-decoration: none;
+    color: white
+}
+
 h1 {
     font-family: Roboto, sans-serif;
     color: #000000; 
@@ -135,20 +148,80 @@ card {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    width: 700px;
+    margin:auto;
+    margin-top: 100px;
+    height:700px;
 
 }
 
 .formulario{
-    width: 400px;
+    
     padding: 50px;
 }
 
-.datos {
-    padding: 30px;
+.datos, .país {
+    padding: 10px ;
+    width: 100%;
+    height: 30px;
     font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1.5px solid #000000;
 
 }
 
-.form-register p {
-    
+.button-resetear {
+    background-color: #888888;
+    font-size: 24px;
+    font-weight: 400;
+    height: 54x;
+    width: 250px;
+    border-radius: 23px;
+    text-align: center;
+    margin-top:30px;
+    margin-left: 23px;
+    margin-right: 25px;
+}
+
+.button-enviar {
+    background-color: #1CD1B0;
+    font-size: 24px;
+    font-weight: 400;
+    height: 54x;
+    width: 250px;
+    border-radius: 23px;
+    text-align: center;
+    margin-top:30px;
+    margin-right: 23px;
+    margin-left: 25px;
+}
+
+h2 {
+    font-family: "Inter", "sans-serif";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: #333333;
+    margin-top: -15px
+
+}
+
+input {
+    font-size: 30px
+}
+
+.pregunta, .a{
+    padding: 80px;
+    margin-left: 100px;
+    background-color: transparent;
+    display: flex;
+    align-items: flex-end;
+    margin: auto;
+    font-family: "karla", "sans-serif";
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
 }
